@@ -1,0 +1,17 @@
+﻿# Python environments
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Local IDE settings
+.idea/
+.vscode/
+
+# Windows generated files
+Thumbs.db
+Desktop.ini
