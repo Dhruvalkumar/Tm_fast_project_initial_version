@@ -137,3 +137,8 @@ of this exact baseline remains unestablished in the reviewed evidence.
 
 See the [Siemens reference guide](../references/README.md) for the
 equipment manual, programming manual and integration examples.
+
+## V07 configuration and deployment
+
+See the [V07 configuration and deployment guide](v07/README.md)
+for the public IP settings, deployment files, provenance and checksums.

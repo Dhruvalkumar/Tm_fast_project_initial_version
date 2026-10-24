@@ -27,13 +27,28 @@ and available verification evidence.
 | Sensor documentation | Initial review documented; hardware details outstanding |
 | Siemens manuals and configuration | Reference guide added; implementation/configuration checks pending |
 | Quartus and VHDL | V07 user logic and overview imported; complete build setup pending |
-| UPD generation | Pending review and import |
+| V07 UPD and DB artifacts | Imported; deployment validation pending |
 | TIA project without HMI | Pending review and import |
 | TIA project with HMI | Pending review and import |
 | Hardware test procedures and results | Pending documentation |
 
 Pending import does not mean that the corresponding project work
 has not been implemented.
+
+## V07 deployment artifacts
+
+The following original V07 deployment artifacts have been imported:
+
+- [V07 UPD package](fpga/v07/deployment/6ES7%20554-1AA00-0AB0%20URM14_07_UserLogic_V01.00.00.UPD)
+- [URM14_07 DB](fpga/v07/deployment/URM14_07.db)
+
+The UPD package is byte-identical to the verified original.
+The DB preserves the original data, with only the generated
+machine-specific source-path comment removed.
+
+These files are archived for traceability. Successful deployment,
+PLC integration and hardware operation are not yet established
+by this repository import.
 
 ## Verification status
 
