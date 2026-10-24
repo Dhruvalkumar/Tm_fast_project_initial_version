@@ -1,9 +1,10 @@
-﻿# URM14 laptop sensor experiments
+# URM14 sensor communication experiments
 
 ## Purpose and status
 
-Historical Python experiments used for URM14 sensor testing on
-Dhruval's local Windows laptop before TM FAST integration.
+Historical Python experiments for URM14 communication,
+measurement processing, visualization and logging before
+integration with Siemens TM FAST.
 
 The source files were copied without content changes.
 Only their filenames were changed for clarity.
@@ -68,9 +69,8 @@ The original virtual environment and PyCharm settings are excluded.
 
 ## Evidence still required
 
-- Identify the script used for the successful laptop test.
+- Identify the script used for the successful sensor test.
 - Identify the adapter, power supply and actual wiring.
 - Identify the script that generated sensor_accuracy_log.csv.
 - Record repeatable hardware tests with reference measurements.
 
-The original PyCharm project remains separate and unchanged.

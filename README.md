@@ -1,4 +1,4 @@
-﻿# TM FAST / URM14 Project
+# TM FAST / URM14 Project
 
 Development repository for Dhruval's Siemens TM FAST project:
 URM14 sensor communication, FPGA user logic, PLC integration,
@@ -6,19 +6,17 @@ and HMI diagnostics.
 
 ## Current repository contents
 
-This initial snapshot contains the historical laptop-based Python
+This initial snapshot contains the historical Python
 sensor experiments and their existing measurement logs.
 
 See [sensor documentation](sensor/README.md) for file purposes,
 communication settings, dependencies and known limitations.
 
-## Project platforms
+## Repository organization
 
-- Local Windows laptop: Python sensor experiments.
-- Remote Windows desktop: Quartus, FPGA packaging, TIA Portal and HMI.
-
-Original working projects are preserved separately.
-Reviewed copies are imported into this repository incrementally.
+Components are reviewed and documented before inclusion.
+Each component includes its purpose, dependencies, configuration,
+and available verification evidence.
 
 ## Review and import status
 
