@@ -25,7 +25,7 @@ and available verification evidence.
 | Python sensor experiments | Imported with unchanged source contents and clearer filenames |
 | Historical sensor logs | Imported; not sufficient to establish accuracy |
 | Sensor documentation | Initial review documented; hardware details outstanding |
-| Siemens manuals and configuration | Pending review and import |
+| Siemens manuals and configuration | Reference guide added; implementation/configuration checks pending |
 | Quartus and VHDL | Pending review and import |
 | UPD generation | Pending review and import |
 | TIA project without HMI | Pending review and import |
@@ -43,3 +43,10 @@ will be recorded separately.
 
 Known limitations of the Python experiments are documented in
 sensor/README.md. Historical logs are preserved without modification.
+
+## Siemens documentation
+
+See the [Siemens reference guide](references/README.md) for official
+manual links, baseline editions, reading order and their relevance
+to this project. Reference review does not establish implementation
+compliance or hardware validation.
