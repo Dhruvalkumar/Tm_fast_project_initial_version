@@ -6,7 +6,7 @@ and HMI diagnostics.
 
 ## Current repository contents
 
-This initial snapshot contains the historical Python
+The repository contains V07 FPGA user logic and historical Python
 sensor experiments and their existing measurement logs.
 
 See [sensor documentation](sensor/README.md) for file purposes,
@@ -26,7 +26,7 @@ and available verification evidence.
 | Historical sensor logs | Imported; not sufficient to establish accuracy |
 | Sensor documentation | Initial review documented; hardware details outstanding |
 | Siemens manuals and configuration | Reference guide added; implementation/configuration checks pending |
-| Quartus and VHDL | Pending review and import |
+| Quartus and VHDL | V07 user logic and overview imported; complete build setup pending |
 | UPD generation | Pending review and import |
 | TIA project without HMI | Pending review and import |
 | TIA project with HMI | Pending review and import |
@@ -50,3 +50,11 @@ See the [Siemens reference guide](references/README.md) for official
 manual links, baseline editions, reading order and their relevance
 to this project. Reference review does not establish implementation
 compliance or hardware validation.
+
+## FPGA implementation
+
+See the [FPGA overview](fpga/README.md) for the V07 source,
+communication flow, interfaces, dependencies and known issues.
+
+The V07 source is preserved unchanged. This import is not yet a
+standalone buildable Quartus project or a validated release.
